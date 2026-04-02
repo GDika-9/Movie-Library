@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sailor Moon - Details</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../styles/style.css" /></head>
+    <title>Sailor Moon - Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/style.css" />
+</head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark movie-navbar" style="background:radial-gradient(circle at top, #5610da 0%, #000000 65%)">
-    <div class="container"><a class="navbar-brand fw-bold" href="../index.html">Anime Cinema</a>
-        <div class="collapse navbar-collapse show"><ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a>
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="../index.html">Anime Cinema</a>
+        <div class="collapse navbar-collapse show">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="../movies.html">Movies</a>
+            <li class="nav-item">
+                <a class="nav-link" href="../movies.html">Movies</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li></ul></div></div></nav>
+            <li class="nav-item">
+                <a class="nav-link" href="../upcoming.html">Upcoming</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>
 <main class="container py-5">
     <section class="movie-detail card">
         <div class="row g-0">
@@ -22,15 +35,99 @@
             <div class="col-md-9">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-start mb-2">
-                        <h1 class="h4 mb-0">Sailor moon</h1><span class="badge text-bg-warning bgcol">6.5/10</span>
+                        <h1 class="h4 mb-0">Sailor moon</h1>
+                        <span class="badge text-bg-warning bgcol">6.5/10</span>
                     </div>
                     <p class="text-muted">Magical Superhero | 200 episodes | 1992</p>
                     <p>The magical action-adventures of a teenage girl who learns of her destiny as the legendary warrior Sailor Moon and must band together with the other Sailor Scouts to defend the Earth and Galaxy.</p>
-                    <div class="mb-3"><button class="btn btn-sm btn-primary me-2 edit">Edit Movie</button><button class="btn btn-sm btn-danger remove">Remove Movie</button></div><h2 class="h6">User Comments</h2><ul class="list-group list-group-flush mb-3">
-                        <li class="list-group-item">Anja: Creepy atmosphere from start to finish.</li><li class="list-group-item">Glen: Good suspense for a demo movie page.</li></ul><p><strong>Average User Rate:</strong> 3.5 / 5</p><h3 class="h6">Add New Comment</h3><form class="row g-2">
-                            <div class="col-md-4"><input type="text" class="form-control" placeholder="Your name" /></div>
-                            <div class="col-md-4"><select class="form-select"><option>Rate: 5</option><option>Rate: 4</option><option>Rate: 3</option><option>Rate: 2</option><option>Rate: 1</option></select></div>
-                            <div class="col-12"><textarea class="form-control" rows="3" placeholder="Write your comment..."></textarea></div>
-                            <div class="col-12"><button type="button" class="btn btn-warning btnstyle">Post Comment</button> <a href="../movies.html" class="btn btn-outline-light ms-2">Back to Movies</a></div></form></div></div></div></section></main>
+                    
+                                    <div class="star-rating">
+                    <input type="radio" id="star5" name="rating" value="5" />
+                    <label for="star5">&#9733;</label>
+
+                    <input type="radio" id="star4" name="rating" value="4" />
+                    <label for="star4">&#9733;</label>
+
+                    <input type="radio" id="star3" name="rating" value="3" />
+                    <label for="star3">&#9733;</label>
+
+                    <input type="radio" id="star2" name="rating" value="2" />
+                    <label for="star2">&#9733;</label>
+
+                    <input type="radio" id="star1" name="rating" value="1" />
+                    <label for="star1">&#9733;</label>
+                </div>
+
+                <br>
+                <h2 class="h6">Gallery</h2> 
+                <img class="gif" src="https://i.pinimg.com/originals/6d/81/71/6d8171a014d12eea134194119ebd33cf.jpg" alt="sailor moon character">
+                <img class="gif" src="https://static.wikia.nocookie.net/disneythehunchbackofnotredame/images/b/bf/Mamoru.jpg/revision/latest?cb=20200407000908" alt="sailor moon character">
+                <img class="gif" src="https://64.media.tumblr.com/707c81cae4069754385b8be4feddb169/ee48a534fcf24ef9-93/s1280x1920/fe6c5c1280364e075502cfb4cf18e6ee3561cf94.jpg" alt="sailor moon character">
+                <img class="gif" src="https://www.animefeminist.com/wp-content/uploads/2018/08/sailorsaturn.jpg" alt="sailor moon character">
+                <img class="gif" src="https://i.redd.it/wpgqtmj8p8z41.png" alt="sailor moon character">
+                <img class="gif" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3gyOWN5Ynd6cW5nMjVlMzhqdnVuZ2djd2hwbjhkNnQzMGplOGZydSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/14t91QH2dEv9sI/giphy.gif" alt="sailor moon gif">
+                <br>
+                <h2 class="h6">Top Cast</h2> 
+                <img class="cast" src="https://preview.redd.it/kotono-mitsuishi-is-retiring-from-the-role-of-usagi-tsukino-v0-3hd520kd2zjb1.jpg?width=640&crop=smart&auto=webp&s=83bc78570affe2d42a72f35b2ac963c9e717edce" alt="sailor moon actor">
+                <img class="cast" src="https://www.nishimura.com/sites/default/files/people/img/t_furuya_tmb.jpg" alt="sailor moon actor">
+                <img class="cast" src="https://i.fod.fujitv.co.jp/imf/synth/w=540,h=540,a=0,u=0,f=webp:auto/img/person/W93-1981.jpg" alt="sailor moon actor">
+                <img class="cast" src="https://www.animenewsnetwork.com/images/encyc/P528-1117408522.1767647269.jpg" alt="sailor moon actor">
+                <img class="cast" src="https://static.tvtropes.org/pmwiki/pub/images/rica_fukami.jpg" alt="sailor moon actor">
+
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+
+<div class="container my-4">
+  <h4>Episodes</h4>
+  <div class="d-flex align-items-center justify-content-center g-2">
+    <span class="episode-arrow me-4">&lt;</span>
+
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">1</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">2</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">3</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">4</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">5</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">6</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">7</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">8</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">9</div>
+    </div>
+    <span class="episode-arrow ms-4">&gt;</span>
+  </div>
+</div>
+
+
+    <h2 class="h6">User Comments</h2>
+        <ul class="list-group list-group-flush mb-3">
+            <li class="list-group-item">Anja: Beautiful world and effects.</li>
+            <li class="list-group-item">Glen: Great visuals and soundtrack.</li>
+        </ul>
+    <h3 class="h6">Add New Comment</h3><form class="row g-2">
+        <div class="col-12"><textarea class="form-control" rows="3" placeholder="Write your comment..."></textarea></div>
+        <div class="col-12"><button type="button" class="btn btn-warning btnstyle">Post Comment</button> 
+            <a href="../movies.html" class="btn btn-outline-light ms-2">Back to Movies</a>
+        </div>
+        </form>
+</main>
 </body>
 </html>

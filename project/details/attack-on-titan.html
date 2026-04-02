@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jujutsu Kaisen - Details</title>
+  <title>Attack on Titan - Details</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="../styles/style.css" />
 </head>
@@ -13,9 +13,15 @@
       <a class="navbar-brand fw-bold" href="../index.html">Anime Cinema</a>
       <div class="collapse navbar-collapse show">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="../movies.html">Movies</a></li>
-          <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../movies.html">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../upcoming.html">Upcoming</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -23,22 +29,106 @@
   <main class="container py-5">
     <section class="movie-detail card">
       <div class="row g-0">
-        <div class="col-md-3"><img src="../images/aot poster.webp" class="img-fluid rounded-start detail-cover" alt="Attack on Titan Poster" /></div>
-        <div class="col-md-9"><div class="card-body">
-          <div class="d-flex justify-content-between align-items-start mb-2"><h1 class="h4 mb-0">Attack on Titan</h1>
-            <span class="badge text-bg-warning bgcol">7.2/10</span></div>
+        <div class="col-md-3">
+          <img src="../images/aot poster.webp" class="img-fluid rounded-start detail-cover" alt="Attack on Titan Poster" />
+        </div>
+        <div class="col-md-9">
+          <div class="card-body">
+          <div class="d-flex justify-content-between align-items-start mb-2">
+            <h1 class="h4 mb-0">Attack on Titan</h1>
+            <span class="badge text-bg-warning bgcol">7.2/10</span>
+          </div>
           <p class="text-muted">Dark fantasy | 100 episodes | 2013</p>
           <p> In a world where humanity shelters behind towering walls from man-eating Titans, a determined teen joins the elite Survey Corps to fight the giants and uncover the secrets of their origin.</p>
-          <div class="mb-3"><button class="btn btn-sm btn-primary me-2 edit">Edit Movie</button><button class="btn btn-sm btn-danger remove">Remove Movie</button></div>
-          <h2 class="h6">User Comments</h2>
-          <ul class="list-group list-group-flush mb-3"><li class="list-group-item">Anja: Great action scenes and strong pace.</li><li class="list-group-item">Glen: Fun movie, but story is simple.</li></ul>
-          <p><strong>Average User Rate:</strong> 4.0 / 5</p>
-          <h3 class="h6">Add New Comment</h3>
-          <form class="row g-2"><div class="col-md-4"><input type="text" class="form-control" placeholder="Your name" /></div><div class="col-md-4"><select class="form-select"><option>Rate: 5</option><option>Rate: 4</option><option>Rate: 3</option><option>Rate: 2</option><option>Rate: 1</option></select></div><div class="col-12"><textarea class="form-control" rows="3" placeholder="Write your comment..."></textarea></div>
-            <div class="col-12"><button type="button" class="btn btn-warning btnstyle">Post Comment</button> <a href="../movies.html" class="btn btn-outline-light ms-2">Back to Movies</a></div></form>
-        </div></div>
+          
+          <div class="star-rating">
+                    <input type="radio" id="star5" name="rating" value="5" />
+                    <label for="star5">&#9733;</label>
+
+                    <input type="radio" id="star4" name="rating" value="4" />
+                    <label for="star4">&#9733;</label>
+
+                    <input type="radio" id="star3" name="rating" value="3" />
+                    <label for="star3">&#9733;</label>
+
+                    <input type="radio" id="star2" name="rating" value="2" />
+                    <label for="star2">&#9733;</label>
+
+                    <input type="radio" id="star1" name="rating" value="1" />
+                    <label for="star1">&#9733;</label>
+                </div>
+
+                <br>
+                <h2 class="h6">Gallery</h2> 
+                <img class="gif" src="https://i.pinimg.com/736x/fd/31/96/fd3196b35eb0cc832b96d1623b893d20.jpg" alt="aot pic">
+                <img class="gif" src="https://static.wikia.nocookie.net/shingekinokyojin/images/4/4f/Mikasa_Ackermann_%28Anime%29_character_image.png/revision/latest?cb=20231105175401" alt="aot pic">
+                <img class="gif" src="https://w0.peakpx.com/wallpaper/250/546/HD-wallpaper-armin-aot-armin-arlert-attack-on-titan-eren-levi-levi-ackerman-mikasa-shingeki-no-kyojin-titan.jpg" alt="aot pic">
+                <img class="gif" src="https://i.redd.it/03ch231bhabd1.jpeg" alt="aot pic">
+                <img class="gif" src="https://static.wikia.nocookie.net/shingekinokyojin/images/e/e4/Hange_Zo%C3%AB_%28Anime%29_character_image.png/revision/latest?cb=20210221212604" alt="aot pic">
+                <img class="gif" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3o4YWVwdjhjampmeTZmNjkyejJnYXh2aTdreTdmb3V4Y3N0Y25kdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0Iyoy5VglR6QKJiw/giphy.gif" alt="aot gif">
+                <br>
+                <h2 class="h6">Top Cast</h2> 
+                <img class="cast" src="https://onlyhit.us/cdn/uploads/prtimes/2026/01/695c7f5d361ff.jpg" alt="aot actor">
+                <img class="cast" src="https://i.idol.st/u/voiceactress/2LzRwoIshikawa-Yui-90bn2Q.jpg" alt="aot actor">
+                <img class="cast" src="https://media.pocketmonsters.net/staff/4873/main.png" alt="aot actor">
+                <img class="cast" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS64a7hKEWBhQZWFiNNwyIgPFQqxYm0IPbVxw&s" alt="aot actor">
+                <img class="cast" src="https://m.media-amazon.com/images/M/MV5BNWU1MGQxMTctOTRhOC00NzY5LTgyM2UtNmNmOGQ3NzcyZjJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="aot actor">
+
+        </div>
       </div>
-    </section>
+    </div>
+</section>
+<br>
+
+<div class="container my-4">
+  <h4>Episodes</h4>
+  <div class="d-flex align-items-center justify-content-center g-2">
+    <span class="episode-arrow me-4">&lt;</span>
+
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">1</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">2</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">3</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">4</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">5</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">6</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">7</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">8</div>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1">
+      <div class="episode-box">9</div>
+    </div>
+    <span class="episode-arrow ms-4">&gt;</span>
+  </div>
+</div>
+
+
+    <h2 class="h6">User Comments</h2>
+        <ul class="list-group list-group-flush mb-3">
+            <li class="list-group-item">Anja: Beautiful world and effects.</li>
+            <li class="list-group-item">Glen: Great visuals and soundtrack.</li>
+        </ul>
+    <h3 class="h6">Add New Comment</h3><form class="row g-2">
+        <div class="col-12"><textarea class="form-control" rows="3" placeholder="Write your comment..."></textarea></div>
+        <div class="col-12"><button type="button" class="btn btn-warning btnstyle">Post Comment</button> 
+            <a href="../movies.html" class="btn btn-outline-light ms-2">Back to Movies</a>
+        </div>
+        </form>
+        
   </main>
 </body>
 </html>
